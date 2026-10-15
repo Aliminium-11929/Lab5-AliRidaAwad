@@ -144,4 +144,5 @@ def delete_user(user_id):
 
     return message
 
-create_db_table()
+if __name__ == "__main__":
+    create_db_table()
